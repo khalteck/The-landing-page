@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit');
+
+body {
+    background-color: #eeeeee;
+    padding-top: 100px;
+    font-family: 'Outfit', sans-serif;
+}
+header {
+    width: 100%;
+    height: 75px;
+    background-color: #eeeeee;
+    box-shadow: 0px 2px 7px rgba(70, 50, 50, 0.3);
+    font-family: 'Outfit', sans-serif;
+    color: #25292f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+footer {
+    margin-top: 350px;
+    background-color: #dddddd;
+    height: 100px;
+    width: 105%;
+    position: relative;
+    bottom: -6px;
+    left: -6px;
+    text-align: center;
+}
+.logo-sizing {
+    width: 300px;
+    height: 35px;
+    position: relative;
+    top: 17.5px;
+    left: 10px;
+}
+.navi {
+    float: right;
+    position: relative;
+    top: 10px
+}
+.sleek {
+    list-style: none;
+    display: flex;
+}
+.nav-link {
+    padding-right: 100px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #f1c40f;
+    font-size: 17px;
+    font-weight: 700;
+}
+.handcrafted {
+    font-size: 25px;
+    font-weight: 600;
+}
+button {
+    width: 160px;
+    height: 30px;
+    font-size: 17px;
+    background-color: #f1c40f;
+    font-weight: 900;
+    border: #f1c40f;
+}
+#email {
+    width: 265px;
+    height: 23px;
+}
+.form-align {
+    text-align: center;
+}
+#features {
+    width: 820px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+.good-things {
+    position: relative;
+    top: 20px;
+}
+.image-sizing {
+    width: 40px;
+    height: 40px;
+}
+.vid {
+    width: 550px;
+    height: 300px;
+    position: relative;
+    top: 170px;
+    left: 50%;
+    margin-left: -275px;
+    z-index: 1;
+}
+figcaption {
+    color: white;
+}
+.copy-link {
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    z-index: 2;
+}
+.box-container {
+    margin: auto;
+    background-color: #eeeeee;
+    width: 1000px;
+    height: 320px;
+    position: relative;
+    top: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 {
+    width: 320px;
+    height: 100%;
+    border: 1px solid;
+    text-align: center;
+}
+.box2 {
+    width: 320px;
+    height: 100%;
+    border: 1px solid;
+    text-align: center;
+}
+.box3 {
+    width: 320px;
+    height: 100%;
+    border: 1px solid;
+    text-align: center;
+}
+.copyright {
+    position: relative;
+    top: 30px;
+    color: #4e4e4e;
+}
+.foot-content {
+    position: relative;
+    top: 30px;
+}
+.footy {
+    padding-right: 60px;
+}
+.choices {
+    list-style: none;
+    position: relative;
+    right: 15px;
+    line-height: 30px;
+}
+.price {
+    font-size: 25px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #dddddd;
+    height: 35px;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 17px;
+}
+.box3:hover {
+    background-color: #c7d8df;
+}
+.box2:hover {
+    background-color: #c7d8df;
+}
+.box1:hover {
+    background-color: #c7d8df;
+}
+@media (max-width: 500px) {
+    header {
+        width: 100%;
+        height: 70px;
+    }
+    .navi {
+        background-color: #c2c1c1;
+        height: 30px;
+        font-size: 11px;
+        position: relative;
+        top: 30px;
+        padding-bottom: 5px;
+    }
+    a:hover {
+        color: #f1c40f;
+        font-size: 11px;
+    }
+    .logo-sizing {
+        width: 300px;
+        height: 35px;
+        position: relative;
+        top: 17.5px;
+        left: 0;
+    }
+    body {
+        background-color: #eeeeee;
+        padding-top: 130px;
+        font-family: 'Outfit', sans-serif;
+    }
+    main {
+        padding-bottom: 550px;
+    }
+    #newsletter {
+        width: 400px;
+        margin: auto;
+    }
+    #features {
+        width: 400px;
+        position: relative;
+        top: 50px;
+        margin: auto;
+    }
+    .good-things {
+        position: relative;
+        top: 15px
+    }
+    .vid {
+        width: 400px;
+        height: 250px;
+        z-index: 1;
+    }
+    #youtube {
+        width: 400px;
+        margin: auto;
+        position: relative;
+        top: -50px;
+        left: 70px;
+    }
+    .box-container {
+        margin: auto;
+        background-color: #eeeeee;
+        width: 320px;
+        display: block;
+    }
+    .box1 {
+        width: 320px;
+        height: 280px;
+        border: 1px solid;
+        text-align: center;
+        margin-bottom: 20px;
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    }
+    .box2 {
+        width: 320px;
+        height: 280px;
+        border: 1px solid;
+        text-align: center;
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    }
+    .box3 {
+        width: 320px;
+        height: 280px;
+        border: 1px solid;
+        text-align: center;
+        margin-top: 20px;
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    }
+    .choices {
+        list-style: none;
+        position: relative;
+        right: 15px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
