@@ -17,6 +17,9 @@ header {
     left: 0;
     z-index: 999;
 }
+main {
+    padding-bottom: 0;
+}
 footer {
     margin-top: 350px;
     background-color: #dddddd;
@@ -84,9 +87,9 @@ button {
     position: relative;
     top: 20px;
 }
-.image-sizing {
-    width: 40px;
-    height: 40px;
+#newsletter {
+    width: fit-content;
+    margin: auto;
 }
 .vid {
     width: 550px;
@@ -97,14 +100,10 @@ button {
     margin-left: -275px;
     z-index: 1;
 }
-figcaption {
-    color: white;
-}
-.copy-link {
-    position: absolute;
-    left: 700px;
-    top: 200px;
-    z-index: 2;
+#youtube {
+    width: 550px;
+    height: 300px;
+    margin: auto;
 }
 .box-container {
     margin: auto;
@@ -133,6 +132,9 @@ figcaption {
     height: 100%;
     border: 1px solid;
     text-align: center;
+}
+.choose {
+    color: #000000;
 }
 .copyright {
     position: relative;
@@ -174,98 +176,196 @@ h2 {
 .box1:hover {
     background-color: #c7d8df;
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
+    body {
+        background-color: #eeeeee;
+        padding-top: 90px;
+        font-family: 'Outfit', sans-serif;
+    }
     header {
         width: 100%;
         height: 70px;
+        background-color: #eeeeee;
+        box-shadow: 0px 2px 7px rgba(70, 50, 50, 0.3);
+        font-family: 'Outfit', sans-serif;
+        color: #25292f;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    main {
+        padding-bottom: 100px;
+        width: 100%;
+    }
+    footer {
+        background-color: #dddddd;
+        height: 100px;
+        width: 110%;
+        position: relative;
+        bottom: -6;
+        left: -6;
+        text-align: center;
+    }
+    .logo-sizing {
+        width: 240px;
+        height: 30px;
+        position: relative;
+        top: 14px;
+        left: 0;
     }
     .navi {
-        background-color: #c2c1c1;
-        height: 30px;
-        font-size: 11px;
+        width: 100%;
+        background-color: #c7d8df;
+        height: 17px;
+        font-size: 9px;
         position: relative;
-        top: 30px;
-        padding-bottom: 5px;
+        top: 18.5px;
+        
+    }
+    .sleek {
+        list-style: none;
+        display: flex;
+        position: relative;
+        left: 10px;
+        right: 0;
+        bottom: 6px;
+    }
+    .nav-link {
+        padding-right: 50px;
+    }
+    a {
+        text-decoration: none;
+        color: #000000;
     }
     a:hover {
         color: #f1c40f;
         font-size: 11px;
+        font-weight: 700;
     }
-    .logo-sizing {
-        width: 300px;
-        height: 35px;
-        position: relative;
-        top: 17.5px;
-        left: 0;
+    .handcrafted {
+        font-size: 18px;
+        font-weight: 600;
     }
-    body {
-        background-color: #eeeeee;
-        padding-top: 130px;
-        font-family: 'Outfit', sans-serif;
+    button {
+        width: 100px;
+        height: 28px;
+        font-size: 12px;
+        background-color: #f1c40f;
+        font-weight: 600;
+        border: #f1c40f;
     }
-    main {
-        padding-bottom: 550px;
+    #email {
+        width: 240px;
+        height: 18px;
     }
-    #newsletter {
-        width: 400px;
-        margin: auto;
+    .form-align {
+        text-align: center;
     }
     #features {
-        width: 400px;
+        width: 240px;
         position: relative;
-        top: 50px;
+        top: 40px;
+        margin: auto;
+        font-size: 14px;
+    }
+    #newsletter {
+        width: 300px;
         margin: auto;
     }
     .good-things {
         position: relative;
-        top: 15px
+        top: 12px;
+        font-size: 17px;
     }
     .vid {
-        width: 400px;
-        height: 250px;
+        width: 240px;
+        height: 150px;
         z-index: 1;
     }
     #youtube {
-        width: 400px;
+        width: 240px;
         margin: auto;
         position: relative;
-        top: -50px;
-        left: 70px;
+        left: 50%;
+        bottom: 100px;
     }
     .box-container {
+        position: relative;
+        top: -25px;
         margin: auto;
         background-color: #eeeeee;
-        width: 320px;
+        width: 240px;
         display: block;
     }
     .box1 {
-        width: 320px;
-        height: 280px;
+        width: 240px;
+        height: 230px;
         border: 1px solid;
         text-align: center;
         margin-bottom: 20px;
         box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
     }
     .box2 {
-        width: 320px;
-        height: 280px;
+        width: 240px;
+        height: 230px;
         border: 1px solid;
         text-align: center;
         box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
     }
     .box3 {
-        width: 320px;
-        height: 280px;
+        width: 240px;
+        height: 230px;
         border: 1px solid;
         text-align: center;
         margin-top: 20px;
         box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
     }
+    .choose {
+        position: relative;
+        bottom: 40px;
+    }
+    .copyright {
+        color: #4e4e4e;
+        font-size: 12px;
+    }
+    .foot-content {
+        position: relative;
+        top: 30px;
+    }
+    .footy {
+        padding-right: 40px;
+    }
     .choices {
         list-style: none;
         position: relative;
+        bottom: 34px;
         right: 15px;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .price {
+        font-size: 25px;
+        font-weight: 600;
+        position: relative;
+        bottom: 15px;
+    }
+    h2 {
+        font-size: 17px;
+        font-weight: 600;
+        background-color: #dddddd;
+        height: 35px;
+        width: 100%;
+        margin-top: 0px;
+        padding-top: 17px;
+    }
+    .box3:hover {
+        background-color: #c7d8df;
+    }
+    .box2:hover {
+        background-color: #c7d8df;
+    }
+    .box1:hover {
+        background-color: #c7d8df;
     }
 }
