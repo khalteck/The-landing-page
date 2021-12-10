@@ -383,7 +383,7 @@ h2 {
         background-color: #c7d8df;
     }
 }
-@media (max-width: 450px) and (min-width: 376px) {
+@media (max-width: 480px) and (min-width: 376px) {
     body {
         background-color: #eeeeee;
         padding-top: 90px;
