@@ -38,9 +38,9 @@ footer {
     left: 10px;
 }
 .navi {
-    float: right;
-    position: relative;
-    top: 10px
+    position: absolute;
+    top: 10px;
+    left: 800px;
 }
 .sleek {
     list-style: none;
