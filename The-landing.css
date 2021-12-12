@@ -184,6 +184,7 @@ h2 {
         background-color: #eeeeee;
         padding-top: 90px;
         font-family: 'Outfit', sans-serif;
+        overflow-x: hidden;
     }
     header {
         max-width: 375px;
@@ -391,6 +392,7 @@ h2 {
         background-color: #eeeeee;
         padding-top: 90px;
         font-family: 'Outfit', sans-serif;
+        overflow-x: hidden;
     }
     header {
         min-width: 376px;
